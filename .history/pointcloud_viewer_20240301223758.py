@@ -1877,7 +1877,7 @@ if __name__ == '__main__':
     logging.basicConfig(format='%(message)s', level=logging.INFO)
     logging.debug(pandas.__version__)
 
-    app = QApplication([])
+    app = QtGui.QApplication([])
     window = MyWindow()
     window.show()
     app.exec_()
